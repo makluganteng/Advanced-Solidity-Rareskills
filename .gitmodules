@@ -1,0 +1,6 @@
+[submodule "Chapter 1/token_sanction/lib/forge-std"]
+	path = Chapter 1/token_sanction/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "Chapter 1/token_sanction/lib/openzeppelin-contracts"]
+	path = Chapter 1/token_sanction/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
