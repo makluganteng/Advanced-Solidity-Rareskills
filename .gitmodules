@@ -7,3 +7,6 @@
 [submodule "Chapter 1/token_god_mode/lib/forge-std"]
 	path = Chapter 1/token_god_mode/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "Chapter 1/token_god_mode/lib/openzeppelin-contracts"]
+	path = Chapter 1/token_god_mode/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
