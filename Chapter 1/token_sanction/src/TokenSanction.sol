@@ -35,8 +35,9 @@ contract TokenSanction is ERC20, Ownable {
     /// @notice A function to blacklist a user where only the admin can only call.
     /// @dev This function is public but there is a control access that only the admin can only access.
     /// @param blacklist_user which is the address of the user that is being blacklisted.
-    function blacklist(address blacklist_user) public onlyOwner{
-        blacklistedUser[blacklist_user] = true;
+    /// @param isBlacklisted boolean of true or false on is the user blacklisted.
+    function blacklist(address blacklist_user, bool isBlacklisted) public onlyOwner{
+        blacklistedUser[blacklist_user] = isBlacklisted;
         emit Blacklisted(blacklist_user);
     }
 
